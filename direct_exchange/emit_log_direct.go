@@ -1,4 +1,4 @@
-package direct
+package direct_exchange
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 //			log.Panicf("%s:%s", msg, err)
 //		}
 //	}
-func receiveMessage() {
+func ReceiveMessage() {
 	conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
 	failOnError(err, "Failed to connect to RabbitMQ")
 	defer conn.Close()
