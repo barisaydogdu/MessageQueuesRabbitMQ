@@ -1,4 +1,4 @@
-module github.com/barisaydogdu/RabbitMQMessageQueues
+module github.com/barisaydogdu/MessageQueuesRabbitMQ
 
 go 1.22.2
 
