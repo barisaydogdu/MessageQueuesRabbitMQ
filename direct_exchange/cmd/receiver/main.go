@@ -5,6 +5,5 @@ import (
 )
 
 func main() {
-	//direct_exchange.ReceiveMessage()
-	direct_exchange.SendMessage()
+	direct_exchange.ReceiveMessage()
 }
